@@ -1,17 +1,19 @@
-*, {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+
+
 }
 html{
     width: 1520px;
 }
 .nav_area{
-    width: 100%;
+    width:100%;
     position: fixed;
     background-color: white;
 }
-.row{
-    width: 1005;
+#nav{
+    width: 1520px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +65,6 @@ html{
 }
 .slct_latest{
     border: none;
-    placeholder: "Latest";
 
 }
 
@@ -151,6 +152,25 @@ width: 100%;
     justify-content: center;
 }
 .shop_title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
+}
+#card{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 50px;
+}
+#card img{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+}
+#product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 140px;
 }
