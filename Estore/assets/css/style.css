@@ -12,6 +12,7 @@ html{
     display: flex;
     position: fixed;
     background-color: white;
+    z-index: 1000;
 }
 #nav{
     width: 1520px;
@@ -198,4 +199,51 @@ width: 100%;
 .disline{
     text-decoration: line-through red;
     color: red;
+}
+.best-product-area {
+    position: relative;
+    width: 1521px;
+}
+.card_png{
+    max-width: 1520px;
+}
+.lf-padding {
+    max-width: 1520px;
+padding-top: 40px;
+}
+.product-man{
+    position: absolute;
+    left: 300px;
+
+}
+.best-product-caption{
+    position: absolute;
+    bottom: 300px;
+    right: 20px;
+}
+.shape{
+    position: absolute;
+    right: 20px;
+    bottom: 60px;
+}
+.shop-now-btn{
+position: absolute;
+top: 250px;
+width: 180px;
+height: 55px;
+border-radius: 30px;
+background-color: black;
+color: white;
+}
+.vertical-text{
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+}
+.title_manz{
+    font-size: 150px;
+    font-weight: 700;
+    rotate: -90deg;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #4d4848;
 }
