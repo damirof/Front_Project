@@ -1,11 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-
-
-}
-html{
-    width: 1520px;
 }
 .nav_area{
     width: 1520px;
@@ -15,7 +10,7 @@ html{
     z-index: 1000;
 }
 #nav{
-    width: 1520px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +62,6 @@ html{
 }
 .slct_latest{
     border: none;
-
 }
 
 .search{
@@ -88,6 +82,10 @@ html{
     top: 17px;
     right: 12px;
 }
+.fav_area{
+    position: relative;
+
+}
 .fav{
     height: 50px;
     color: #000000;
@@ -96,7 +94,20 @@ html{
     border-radius: 50%;
     padding: 8px 15px;
 }
-.shop{
+.fav_number{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #6499c5;
+    color: white;
+    font-size: 12px;
+    border-radius:  50%;
+    padding: 5px 10px;
+}
+.shop_area{
+    position: relative;
+}
+.shop{  
     height: 50px;
     color: #000000;
     font-size: 14px;
@@ -104,6 +115,16 @@ html{
     border-radius: 50%;
     padding: 13px 17px;
 }
+.shop_number{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #6499c5;
+    color: white;
+    font-size: 12px;
+    border-radius:  50%;
+    padding: 5px 10px;
+}   
 a .btn{
     border-radius: 40px;
     width: 122px;
@@ -114,7 +135,8 @@ a .btn:hover{
     color: white;
 }
 .slider{
-margin-top: 100px;
+    margin-top: 100px;
+    padding: 0;
 }
 .bg_photo{
     width: 1520px;
@@ -139,8 +161,12 @@ width: 100%;
     width: 300px;
     height: 90px;
 }
+.best-product-area{
+    width: 100%;
+    
+}
 #burger{
-    display: block;
+    display: flex;
     font-size: 60px;
     position: absolute;
     bottom: 50px;
@@ -211,10 +237,11 @@ width: 100%;
     max-width: 1520px;
 padding-top: 40px;
 }
-.product-man{
+.product_man{
     position: absolute;
+    top: -600px;
     left: 300px;
-
+    height:600px;
 }
 .best-product-caption{
     position: absolute;
@@ -237,8 +264,8 @@ color: white;
 }
 .vertical-text{
     position: absolute;
-    bottom: 80px;
-    left: 100px;
+    bottom: 90px;
+    left: 60px;
 }
 .title_manz{
     font-size: 150px;
@@ -247,3 +274,238 @@ color: white;
     color:rgb(255, 255, 255);
     text-shadow: 1px 1px 1px #4d4848;
 }
+.best-collection-area{
+    margin-top: 200px;
+    position: relative;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+    gap: 50px;
+}
+.btn_collect{
+    width: 200px;
+    height: 50px;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(82, 82, 242);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.jacket_1{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 30px;
+
+}
+.jacket_2{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 30px;
+}
+.jacket_3{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    gap: 30px;
+}
+.jacket_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 82, 242);
+    color: white;
+    border-radius: 10px;
+    height: 85px;
+    width: 180px;
+}
+.latest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+}
+.latest_area{
+    background-image: url(../images/latest-offer.png.webp);
+    background-size: cover;
+    background-position: center;
+    width: 1300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 50px;
+    font-size: 25px;
+}
+.get_our{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-style:normal;
+    font-weight: bold;
+}
+.email_latest{
+    display: flex;
+    width: 450px;
+    height: 60px;
+    border-radius: 40px;
+    position: relative;
+}
+.input_email{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    padding: 0 10px;
+}
+.btn_latest{
+    background: #2577fd;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    top: 0;
+    color: #fff;
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+
+}
+.shop_method{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    gap: 50px;
+
+}
+.shop_title{
+    font-size: 20px;
+    p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+#gallery{
+    display: flex;
+    align-items: center;
+}
+.gallery_items{
+width: 280px;
+}
+.footer_area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        color: #868c98;
+    }
+    p{
+        color: #868c98;
+    }
+    li{
+        list-style-type: none;
+    };
+}
+.footer_social{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    a{
+        color: black;
+}
+    }
+    #end{
+        padding-top: 100px;
+    }
+
+    /* Responsive adjustments for all devices */
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .nav_area, .bg_photo, .best-product-area, .best-collection-area {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 1024px) {
+        .nav_area {
+            width: 100%;
+        }
+        .bg_photo {
+            width: 100%;
+        }
+        .best-product-area {
+            width: 100%;
+        }
+        .best-collection-area {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .nav_area {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 10px;
+        }
+        .nav_list, .nav_search {
+            display: none;
+        }
+        .bg_photo {
+            width: 100%;
+        }
+        .best-product-area {
+            width: 100%;
+        }
+        .best-collection-area {
+            width: 100%;
+        }
+        .logo img {
+            width: 200px;
+            height: auto;
+        }
+        #burger {
+            display: flex;
+            font-size: 40px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .logo img {
+            width: 150px;
+            height: auto;
+        }
+        .shop_title {
+            font-size: 30px;
+        }
+        .product_area {
+            padding: 50px;
+        }
+        .latest_area {
+            width: 100%;
+            height: auto;
+            padding: 50px;
+        }
+        .email_latest {
+            width: 100%;
+        }
+        .btn_latest {
+            width: 100px;
+        }
